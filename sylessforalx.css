@@ -1,0 +1,49 @@
+a {
+    color: red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #668EB9;
+    font-weight: bold;
+    color: white;
+   
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+header {
+    background-color: grey;
+    font-weight: bolder;
+    
+}
+
+heade li a {
+    color: blue;
+}
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: yellow;}
+
+a:active {
+    color: blue;
+}
+
+li {
+    font-size: 20px;
+}
